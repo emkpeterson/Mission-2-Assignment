@@ -1,5 +1,6 @@
 Mission #2 Assignment
 IS 413 - Hilton
+
 Write a .NET console application using C# that simulates the rolling of two 6-sided dice. Use an
 Array to keep track of the number of times that each combination is thrown. In other words,
 keep track of how many times the combination of the two simulated dice is 2, how many times
@@ -10,24 +11,8 @@ the dice for the number of times that the user specified. That method in the sec
 return the array containing the results. In the first class, use that array to print a histogram (using
 the * character) that shows the total percentage each number was rolled. Each * will represent
 1% of the total rolls.
-Sample session:
-Welcome to the dice throwing simulator!
-How many dice rolls would you like to simulate? 1000
-DICE ROLLING SIMULATION RESULTS
-Each "*" represents 1% of the total number of rolls.
-Total number of rolls = 1000.
-2: ***
-3: ***
-4: ***********
-5: ***********
-6: ********
-7: ******************
-8: ****************
-9: **********
-10: *************
-11: *****
-12: **
-Thank you for using the dice throwing simulator. Goodbye!
+
 NOTE: Due to rounding issues and the fact that you cannot print a partial asterisk, your total
 number of asterisks printed may not be exactly 100.
+
 Submit a link to your GitHub repository containing your project via Learning Suite.
