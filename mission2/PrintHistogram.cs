@@ -24,7 +24,7 @@ namespace mission2
                 double percentage = (double)results[i] / totalRolls * 100;
 
                 //print the actual histogram
-                int asteriskCount = (int)Math.Round(percentage);
+                int asteriskCount = (int)Math.Round(percentage / 1);
                 Console.Write($"{i}: {new string('*', asteriskCount)}\n");
             }
         }
